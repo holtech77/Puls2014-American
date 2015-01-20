@@ -1,0 +1,16 @@
+FTP
+transmision de archivos
+Hosting barato normal --> public_html/ <--FTP
+ 	index.html
+ 	images
+ 	css
+ 	js
+www.holamundo.com
+
+SISTEMA DE CONTROL DE VERSIONES
+
+SWN: Subversion / Mercurial / TFS / CVS / GIT
+GitHub
+1. Red social de programadores
+2. Web/Apps
+3. Mucho mas facil
