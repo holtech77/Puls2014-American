@@ -1,0 +1,63 @@
+body{
+	background:#EEE;
+	font-family:"Arial";
+	font-size:16px;
+}
+
+a{
+	color:#22BCE0;
+}
+
+header{
+	background:#343B54; /*(rojo-verde-azul) 00->negro*/
+	color:white;
+	overflow:hidden;
+	padding:0.5em;
+	position:relative;
+}
+
+header figure{
+	float:left;
+}
+
+header h1{
+	font-size:1.2em;
+	font-weight:normal;
+	margin:0.2em 70px 0 0;
+}
+
+header #logo img{
+	border-right:1px solid white;
+	margin-right:0.5em;
+	/*padding-right:0.5em;*/
+	width:60px;
+	border-radius:60px;
+}
+
+header #avatar{
+	margin:0.5em 0.3em 0 0.4em;
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+header #avatar img{
+	width:60px;
+	border-radius: 60px;
+}
+
+/*
+	atributos para cajas 
+	#objeto{
+		display:inline; ->continuo con el texto
+		display:block; ->bota abajo el texto
+		display:inline-block; ->separa la caja pero permitee poner texto al lado
+	}
+
+	div,figure,header,footer,section,article,nav,p -> block
+	video,img,spam ->inline
+	imagenes -> pixeles
+	areas de tamaño variable -> %
+	valores relativos a fuente o margen -> em
+
+*/
